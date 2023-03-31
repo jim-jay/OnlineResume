@@ -1,4 +1,4 @@
-namespace OnlineResume.Models
+namespace OnlineResume.Web.Models
 {
     public class ErrorViewModel
     {

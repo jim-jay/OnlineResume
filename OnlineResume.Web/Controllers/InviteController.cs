@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace OnlineResume.Controllers;
+namespace OnlineResume.Web.Controllers;
 
 public class InviteController : Controller
 {

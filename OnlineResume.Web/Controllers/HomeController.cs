@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using OnlineResume.Models;
 using System.Diagnostics;
 
-namespace OnlineResume.Controllers;
+namespace OnlineResume.Web.Controllers;
 
 public class HomeController : Controller
 {
