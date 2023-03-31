@@ -1,5 +1,24 @@
 ﻿@{
     ViewData["Title"] = "请输入邀请码";
 }
+@model InviteIndexViewModel
 
-<h2 class="text-center">请输入邀请码</h2>
+<div class="d-flex justify-content-center align-items-center" style="margin-top: 200px;">
+    <div class="card shadow-lg">
+        <div class="card-header">
+            邀请码
+        </div>
+        <div class="card-body">
+            <div class="text-secondary card-text mb-3 fs-6">为了防止个人信息在互联网上泄露，所以采取邀请码模式，还请见谅！</div>
+            <form method="post">
+                <div class="mb-3">
+                    <input type="text" class="form-control" asp-for="Code" placeholder="请输入邀请码">
+                    <span asp-validation-for="Code" class="text-danger mt-1"></span>
+                </div>
+                <button type="submit" class="btn btn-primary float-end">确定</button>
+            </form>
+        </div>
+    </div>
+</div>
+    
+
